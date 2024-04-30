@@ -34,7 +34,7 @@ const Inputs =({fetchData})=>{
 
     return(
         <form onSubmit={handleSubmit}>
-            <h2>Test Backed Skills</h2>
+            <h2>Test Backed</h2>
             <input type='text' name='name' placeholder='Name' onChange={handleFormData}/>
             <input type='email' name='email' placeholder='Email@example.com' onChange={handleFormData}/>
             <button>Submit</button>
